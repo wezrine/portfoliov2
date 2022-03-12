@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AboutView from './views/AboutView';
+import ContactView from './views/ContactView';
+import ExperienceView from './views/ExperienceView';
+import LandingView from './views/LandingView';
+import SkillsView from './views/SkillsView';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LandingView />
+    <AboutView />
+    <SkillsView />
+    <ExperienceView />
+    <ContactView />
   </React.StrictMode>,
   document.getElementById('root')
 );
